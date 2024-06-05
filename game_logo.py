@@ -1,0 +1,11 @@
+def draw_logo():
+    print("'")
+    print("'")
+    print("'")
+    print("'")
+    print("'")
+    print("'")
+    print("'")
+    print("'")
+    print("'")
+    print("'")

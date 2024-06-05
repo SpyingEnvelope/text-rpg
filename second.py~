@@ -1,0 +1,19 @@
+# This is the first line in second .py
+def name_selection():
+    x = input("Please input your character's name: ")
+    print("You have selected", x)
+    input_function(x)
+
+def input_function(x):
+    print("Is", x, "correct? ")
+    choice = input("[Y]es or [N]o? ")
+    if choice.lower() == "y":
+        print("Great! Welcome", x)
+    elif choice.lower() == "n":
+        print("Well, let's try again!")
+        name_selection()
+    else:
+        print("You did not make a valid choice. The only two valid choice are y and n")
+        input_function(x)
+
+name_selection()
